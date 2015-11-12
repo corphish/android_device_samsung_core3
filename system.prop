@@ -1,0 +1,19 @@
+#
+# system.prop for core33g
+#
+
+ro.sf.lcd_density=240
+ro.lcd_brightness=160
+ro.lcd_min_brightness=20
+
+# MultiTouch support
+ro.product.multi_touch_enabled=true
+
+net.streaming.rtsp.uaprof=http://wap.samsungmobile.com/uaprof/
+
+ro.opengles.version=131072
+debug.hwui.render_dirty_regions=false
+
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.com.google.gmsversion=4.4_r5
