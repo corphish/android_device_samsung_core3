@@ -21,6 +21,12 @@ BOARD_KERNEL_PAGESIZE := 2048
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 
+# GPS
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/kylepro/include
+
+# CMHW
+BOARD_HARDWARE_CLASS := hardware/samsung/cmhw/ device/samsung/kylepro/cmhw/
+
 # Connectivity - Wi-Fi
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 WPA_SUPPLICANT_VERSION      := VER_0_8_X
