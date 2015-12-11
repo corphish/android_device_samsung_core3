@@ -39,6 +39,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
+BOARD_HAVE_BLUETOOTH_BCM:=true
 
 # GPS
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/kylepro/include
