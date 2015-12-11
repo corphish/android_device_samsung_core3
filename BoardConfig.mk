@@ -62,14 +62,25 @@ BOARD_EGL_CFG := device/samsung/core33g/configs/egl.cfg
 USE_OPENGL_RENDERER := true
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
-# fix this up by examining /proc/mtd on a running device
-BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1258291200
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 6094323712
-BOARD_FLASH_BLOCK_SIZE := 131072
-TARGET_USERIMAGES_USE_EXT4 := true
+# config sepolicy
+BOARD_SEPOLICY_DIRS := device/samsung/core33g/sepolicy
+
+BOARD_SEPOLICY_UNION := \
+       file.te \
+       file_contexts \
+       seapp_contexts \
+       theme.te \
+       healthd.te \
+       init.te \
+       init_shell.te \
+       installd.te \
+       netd.te \
+       shell.te \
+       system.te \
+       untrusted_app.te \
+       vold.te \
+       zygote.te
 
 
-
+# Keys
 BOARD_HAS_NO_SELECT_BUTTON := true
