@@ -21,6 +21,16 @@ PRODUCT_COPY_FILES += \
         device/samsung/core33g/rootdir/init.board.rc:root/init.board.rc \
         device/samsung/core33g/rootdir/fstab.sc8830:root/fstab.sc8830
 
+
+# Audio
+PRODUCT_COPY_FILES += \
+	device/samsung/core33g/audio_params/tiny_hw.xml:system/etc/tiny_hw.xml \
+	device/samsung/core33g/audio_params/codec_pga.xml:system/etc/codec_pga.xml \
+	device/samsung/core33g/audio_params/audio_hw.xml:system/etc/audio_hw.xml \
+	device/samsung/core33g/audio_params/audio_para:system/etc/audio_para \
+	device/samsung/core33g/audio_params/audio_policy.conf:system/etc/audio_policy.conf
+
+# Media
 PRODUCT_COPY_FILES += \
         device/samsung/core33g/media_codecs.xml:system/etc/media_codecs.xml \
 
