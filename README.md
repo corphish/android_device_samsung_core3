@@ -1,3 +1,2 @@
-Device Configuration for Samsung Galaxy Core 3
-
-<b>Please use the proper prebuilt kernel, I am not including that now due to my poor net.</b>
+CM11 device tree for Samsung Galaxy Core Prime [SM-G360H]{core33g}
+This is currently under development.
