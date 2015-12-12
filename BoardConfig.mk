@@ -62,6 +62,10 @@ BOARD_EGL_CFG := device/samsung/core33g/configs/egl.cfg
 USE_OPENGL_RENDERER := true
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
+# Audio
+BOARD_USES_GENERIC_AUDIO := true
+BOARD_USES_TINYALSA_AUDIO := true
+
 # config sepolicy
 BOARD_SEPOLICY_DIRS := device/samsung/core33g/sepolicy
 
