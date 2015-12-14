@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific packages
 PRODUCT_PACKAGES += \
-	SamsungServiceMode
+	SamsungServiceMode \
         Torch
 
 # Charger
